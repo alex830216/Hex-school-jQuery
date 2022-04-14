@@ -43,4 +43,13 @@ $(document).ready(function () {
     'resizeDuration': 200,
     'wrapAround': true,
   })
+
+  function showBtnCondition() {
+    if ($(this).scrollTop() > 600) {
+      $('.top').fadeIn();
+    } else {
+      $('.top').fadeOut();
+    }
+  };
+  $(window).scroll(showBtnCondition);
 });

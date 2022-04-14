@@ -3,48 +3,129 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 *,
@@ -56,11 +137,12 @@ table {
 /* 字體綠色 */
 .nav a,
 .course .better {
-  color: #00CC99;
+  color: #00cc99;
 }
 
 /* 字體粗體 */
-.nav a, .social-media a, 
+.nav a,
+.social-media a,
 .banner-content,
 .course-item h2,
 .course-difference h2,
@@ -106,7 +188,7 @@ a:hover {
 }
 
 img {
-	vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 .wrap {
@@ -130,11 +212,11 @@ img {
 }
 
 .social-media li:first-child a {
-  color: #4460A0;
+  color: #4460a0;
 }
 
 .social-media li:last-child a {
-  color: #00AAEC;
+  color: #00aaec;
 }
 
 .nav {
@@ -167,18 +249,18 @@ img {
 }
 
 .nav-bar > li {
-	position: relative;
+  position: relative;
 }
 
 .nav-bar > li > ul {
-	display: none;
-	position: absolute;
-	top: auto;
-	right: 0;
-	z-index: 2;
-	background: #fff;
-	width: 180px;
-	text-align: center;
+  display: none;
+  position: absolute;
+  top: auto;
+  right: 0;
+  z-index: 2;
+  background: #fff;
+  width: 180px;
+  text-align: center;
 }
 
 .banner {
@@ -189,14 +271,14 @@ img {
 }
 
 .banner-content {
-  position: absolute; 
+  position: absolute;
   width: 1002px;
   top: 90px;
   color: #fff;
   font-size: 36px;
   padding: 40px 20px;
   background: rgba(0, 0, 0, 0.2);
-	z-index: 1;
+  z-index: 1;
 }
 
 .courses {
@@ -293,7 +375,7 @@ img {
 }
 
 .customer-information .submit-btn {
-  background: #00CC99;
+  background: #00cc99;
   padding: 6px 12px;
   cursor: pointer;
   margin-left: 410px;
@@ -341,6 +423,7 @@ img {
   position: fixed;
   bottom: 0;
   right: 0;
+  display: none;
 }
 
 .top img {
